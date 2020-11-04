@@ -42,7 +42,7 @@ contract Box {
 ## Copiling
 
 ```
-$ npx buidler compile
+$ npx hardhat compile
 ```
 
 ## Adding more contracts
@@ -158,7 +158,7 @@ module.exports = {
 ```
 
 ```
-$ npx buidler run --network localhost scripts/deploy.js
+$ npx hardhat run --network localhost scripts/deploy.js
 ```
 
 ## Interacting programmatically
